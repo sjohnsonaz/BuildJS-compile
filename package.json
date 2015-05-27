@@ -1,0 +1,42 @@
+{
+  "name": "grunt-BuildJS-compile",
+  "description": "Compile BuildJS projects.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/sjohnsonaz/BuildJS-compile",
+  "author": {
+    "name": "Sean Johnson",
+    "email": "sjohnson@sjohnsonaz.com",
+    "url": "www.sjohnsonaz.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sjohnsonaz/BuildJS-compile"
+  },
+  "bugs": {
+    "url": "https://github.com/sjohnsonaz/BuildJS-compile/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/sjohnsonaz/BuildJS-compile/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
